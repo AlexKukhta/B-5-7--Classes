@@ -16,6 +16,10 @@ namespace Base.Lesson_5
             var app = new Applicant();
             var pass = new Passport();
 
+            var hello = "Hello, Olga";
+
+            Console.WriteLine(hello);
+
             app.name = "Olga";
             app.surname = "Ronda";
             app.passport = pass;
